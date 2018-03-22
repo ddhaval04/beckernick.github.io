@@ -1,8 +1,7 @@
 ---
 title: Gradient Descent - A Beginners Guide
 header:
-  overlay_image: /assets/images/header.jpg
-  overlay_filter: 0.5
+  image: /assets/images/header.jpg
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
 excerpt: "This is blog outlines my understanding of Gradient Descent ..."
 ---
