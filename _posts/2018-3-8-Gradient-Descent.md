@@ -1,5 +1,6 @@
 ---
 title: Gradient Descent - A Beginners Guide
+tags: [machine learning]
 header:
   image: /assets/images/header.jpg
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
