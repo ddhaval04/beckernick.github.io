@@ -1,7 +1,8 @@
 ---
 title: Gradient Descent - A Beginners Guide
 header:
-	image: /assets/images/header.jpg
+	image: "/assets/images/header.jpg"
+  caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
 ---
 
 
