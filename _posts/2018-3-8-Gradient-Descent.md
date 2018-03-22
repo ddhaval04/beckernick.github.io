@@ -2,7 +2,7 @@
 title: Gradient Descent - A Beginners Guide
 tags: [machine learning]
 header:
-  image: /assets/images/gradient-header.jpg
+  overlay_image: /assets/images/gradient-header.jpg
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
 excerpt: "This is blog outlines my understanding of Gradient Descent ..."
 ---
@@ -62,5 +62,8 @@ This intuitively makes sense! To decrease the output of our function, we need to
 So, if we repeat the above process for 4000 times we will get the value of x = -2 and y = 2.0 leading us to give the output of our function f(x, y) =  0. So we have got the expected values of x and y that cause our function to give the minimum value of 0.
 This is the intuition behind gradient descent algorithm – one of the “greatest hit” optimization technique that is at the core of most of the machine learning algorithm. I told you, it’s easier than it looks Here, just to make things easy, we have worked with an example that is trivial and low-dimensional. In reality, we will be dealing with non-linear, high-dimensional functions where it is impossible to solve anything by hand analytically. However, the approach works exactly the same there!
 Does this make sense? Yep? Nope? Although this post is aimed to help beginners get an intuition behind the working of gradient descent, it is by no means a comprehensive overview. Till then, keep chilling and keep innovating!
+
+
+
 Lastly, as my friend Gosuddin says “ Jeet k aaenge!”  (Will win)
 
