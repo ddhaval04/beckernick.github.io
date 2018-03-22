@@ -4,7 +4,7 @@ permalink: /visuals/
 title: "Visualizations by Tags"
 author_profile: true
 header:
-  image: "japanese_arches.jpg"
+  image: "header.jpg"
   caption: "Photo credit: Ginny Lehman"
 
 ---
