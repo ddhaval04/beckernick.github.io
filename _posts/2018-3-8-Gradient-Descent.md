@@ -4,6 +4,7 @@ header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
+excerpt: "This is blog outlines my understanding of Gradient Descent ..."
 ---
 
 
