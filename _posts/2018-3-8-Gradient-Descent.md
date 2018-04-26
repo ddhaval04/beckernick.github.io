@@ -4,7 +4,7 @@ tags: [machine learning]
 header:
   overlay_image: /assets/images/gradient-header.jpg
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
-excerpt: "This is blog outlines my understanding of Gradient Descent ..."
+excerpt: "This blog outlines my understanding of Gradient Descent ..."
 ---
 
 
