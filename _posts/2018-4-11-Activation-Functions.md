@@ -1,6 +1,7 @@
 ---
 title: Activation Functions
 tags: [Deep Learning]
+comments: true
 header:
   image: /assets/images/activation-header.jpg
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
