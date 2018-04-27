@@ -24,7 +24,7 @@ One of the most critical parts of any machine learning algorithm is optimization
 
 Don’t worry, it is easier than it looks!
 
-As Chris Pine says, "The only thing you sometimes have control over is perspective. You don't have control over your situation. But you have a choice about how you view it.”
+> As Chris Pine says, "The only thing you sometimes have control over is perspective. You don't have control over your situation. But you have a choice about how you view it.”
 Now, let us change our perspective here and see the above plot as something like this-
 
 <p align="center">
