@@ -9,7 +9,7 @@ excerpt: "This blog outlines my understanding of different activation functions 
 
 # So why do we need Activation functions in our neural networks?
 
-The basic idea of how a neural network learns is - We have some input data that we feed it into the network and then we perform a series of linear operations layer by layer and derive an output. In a simple case for a particular layer is that we multiply the input by the weights, add a bias and apply an activation function and pass the output to the next layer. We keep repeating the process until we reach the last layer. The final value is our output. We than compute the error between the "calculated output" and the "true output" and then calculate the partial derivatives of this error with respect to the parameters in each layer going backwards and keep updating the parameters accordingly!
+The basic idea of how a neural network learns is - We have some input data that we feed it into the network and then we perform a series of linear operations layer by layer and derive an output. In a simple case for a particular layer is that we multiply the input by the weights, add a bias and apply an activation function and pass the output to the next layer. We keep repeating the process until we reach the last layer. The final value is our output. We then compute the error between the "calculated output" and the "true output" and then calculate the partial derivatives of this error with respect to the parameters in each layer going backwards and keep updating the parameters accordingly!
 
 Neural networks are said to be universal function approximators. The main underlying goal of a neural network is to learn complex non-linear functions. If we do not apply any non-linearity in our multi-layer neural network, we are simply trying to seperate the classes using a linear hyperplane. As we know, in the real-world nothing is linear!
 
@@ -78,7 +78,7 @@ However, it has a drawback in terms of a problem called as dying neurons.
 	<img width="460" height="300" src="{{ site.baseurl }}/assets/images/dead-neuron.gif">
 </p>
 
-- *Dead Neurons*:
+- **Dead Neurons**:
 ReLU units can be fragile during training and can "die". That is, if the units are not activated initially, then during backpropagation zero gradients flow through them. Hence, neurons that "die" will stop responding to the variations in the output error because of which the parameters will never be updated/updated during backpropagation. However, there are concepts such as Leaky ReLU that can be used to overcome this problem. Also, having a proper setting of the learning rate can prevent causing the neurons to be dead.
 
 
