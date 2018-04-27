@@ -80,12 +80,11 @@ def relu(z):
 ```
 
 
-
 ### Leaky ReLU:
 
 The Leaky ReLU is just an extension of the traditional ReLU function. As we saw that for values less than 0, the gradient is 0 which results in "Dead Neurons" in those regions. To address this problem, Leaky ReLU comes in handy. That is, instead of defining values less than 0 as 0, we instead define negative values as a small linear combination of the input. The small value commonly used is 0.01.  It is represented as `LeakyReLU(z) = max(0.01 * z, z)`. The idea of Leaky ReLU can be extended even further by making a small change. Instead of multiplying `z` with a constant number, we can learn the multiplier and treat it as an additional hyperparameter in our process. This is known as Parametric ReLU. In practice, it is believed that this performs better than Leaky ReLU.
 
-![Leak-Relu]({{ site.baseurl }}/assets/images/leaky-relu.png)
+![Leaky-Relu]({{ site.baseurl }}/assets/images/leaky-relu.png)
 
 ```python
 import numpy as np
