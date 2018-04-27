@@ -8,7 +8,9 @@ header:
 excerpt: "This blog outlines my understanding of different activation functions used in deep neural networks..."
 ---
 
-# So why do we need Activation functions in our neural networks?
+
+
+## So why do we need Activation functions in our neural networks?
 
 The basic idea of how a neural network learns is - We have some input data that we feed it into the network and then we perform a series of linear operations layer by layer and derive an output. In a simple case for a particular layer is that we multiply the input by the weights, add a bias and apply an activation function and pass the output to the next layer. We keep repeating the process until we reach the last layer. The final value is our output. We then compute the error between the "calculated output" and the "true output" and then calculate the partial derivatives of this error with respect to the parameters in each layer going backwards and keep updating the parameters accordingly!
 

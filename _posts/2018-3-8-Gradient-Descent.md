@@ -3,10 +3,11 @@ title: Gradient Descent - A Beginners Guide
 tags: [machine learning]
 comments: true
 header:
-  overlay_image: /assets/images/gradient-header.jpg
+  image: /assets/images/gradient-header.jpg
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
 excerpt: "This blog outlines my understanding of Gradient Descent ..."
 ---
+
 
 
 Recently, during my coursework, I have been left in awe of the advancements in the field of science in general. In just about a decade, we have completely revolutionized the way we look at the capabilities of machines, the way we build software and much more. Tasks that seemed impossible just a decade ago have become accessible and effortless. Long story short, we have made the machines think!! Sounds cool, isn’t it?
