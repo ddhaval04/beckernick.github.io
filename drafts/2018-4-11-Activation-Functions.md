@@ -2,21 +2,21 @@
 title: Activation Functions
 tags: [Deep Learning]
 header:
-  overlay_image: /assets/images/gradient-header.jpg
+  overlay_image: /assets/images/activation-header.jpg
   caption: "Photo credit: [**Unsplash**](https://www.unsplash.com)"
 excerpt: "This blog outlines my understanding of different activation functions used in deep neural networks..."
 ---
 
 # So why do we need Activation functions in our neural networks?
 
-The basic idea of how a neural network learns is: We have some input data that we feed it into the network and then we perform a series of linear operations layer by layer and derive an output. In a simple case for a layer operation is that we multiply the input by the weights, add a bias and apply an activation function and pass the output to the next layer. We keep repeating the process until we reach the last layer. The final value is our output. We than compute the error of between the "calculated output" and the "true output" and then calculate the partial derivatives of this output with respect to the parameters in each layer going backwards and keep updating the parameters accordingly!
+The basic idea of how a neural network learns is - We have some input data that we feed it into the network and then we perform a series of linear operations layer by layer and derive an output. In a simple case for a particular layer is that we multiply the input by the weights, add a bias and apply an activation function and pass the output to the next layer. We keep repeating the process until we reach the last layer. The final value is our output. We than compute the error between the "calculated output" and the "true output" and then calculate the partial derivatives of this error with respect to the parameters in each layer going backwards and keep updating the parameters accordingly!
 
-Neural networks are said to be universal function approximators. The main underlying goal of a neural network is to learn complex non-linear functions. If we do not apply any non-linearity in our multi-layer neural network, we are simply trying to seperate the classes using a linear hyperplane. As we know, in real-world nothing is linear!
+Neural networks are said to be universal function approximators. The main underlying goal of a neural network is to learn complex non-linear functions. If we do not apply any non-linearity in our multi-layer neural network, we are simply trying to seperate the classes using a linear hyperplane. As we know, in the real-world nothing is linear!
 
 ![_config.yml]({{ site.baseurl }}/assets/images/non-linear-world.jpg)
 
 
-Also, imagine we perform simple linear operation as described above, namely; multiply the input by weights, add a bias and sum them across all the inputs arriving to the neuron. It is likely that in certain situations, the output derived above, takes on a large value. When, this output is fed into the further layers, they can be transformed to even larger values, making things computationally uncontrollable. This is where the activation functions play a major role i.e. squashing a real-number to a fix interval (e.g. between -1 and 1).
+Also, imagine we perform simple linear operation as described above, namely; multiply the input by weights, add a bias and sum them across all the inputs arriving to the neuron. It is likely that in certain situations, the output derived above, takes a large value. When, this output is fed into the further layers, they can be transformed to even larger values, making things computationally uncontrollable. This is where the activation functions play a major role i.e. squashing a real-number to a fix interval (e.g. between -1 and 1).
 
 Let us see different types of activation functions and how they compare against each other:
 
@@ -38,7 +38,7 @@ The python implementation looks something similar to:
 import numpy as np
 
 def sigmoid(z):
-	return 1 / (1 + np.exp(-z))
+  return 1 / (1 + np.exp(-z))
 ```
 
 ### Tanh:
@@ -51,7 +51,7 @@ The tanh or hyperbolic tangent activation function has the mathematical form tan
 import numpy as np
 
 def tanh(z):
-	return np.tanh(z)
+  return np.tanh(z)
 ```
 
 
@@ -74,7 +74,7 @@ ReLU units can be fragile during training and can "die". That is, if the units a
 import numpy as np
 
 def relu(z):
-	return z * (z > 0)
+  return z * (z > 0)
 ```
 
 
@@ -89,5 +89,5 @@ The Leaky ReLU is just an extension of the traditional ReLU function. As we saw 
 import numpy as np
 
 def leaky_relu(z):
-	return np.maximum(0.01 * z, z)
+  return np.maximum(0.01 * z, z)
 ```
